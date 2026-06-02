@@ -49,23 +49,29 @@ pyinstaller --noconsole --onefile Playlist_Renamer_App.py
 ```
 Once the build completes successfully, your standalone application will be available inside the newly generated dist/ folder.
 
-🛠️ Tech Stack & Libraries
-Core Language: Python 3.14
+## 🛠️ Tech Stack & Libraries
+#### Core Language: Python 3.14
 
-GUI Framework: Tkinter (Tcl/Tk)
+#### GUI Framework: 
+Tkinter (Tcl/Tk)
 
-Metadata Scraper: yt-dlp (efficient flat-playlist metadata extraction)
+#### Metadata Scraper: 
+yt-dlp (efficient flat-playlist metadata extraction)
 
-Text Processing: difflib (advanced string similarity matching)
+#### Text Processing: 
+difflib (advanced string similarity matching)
 
-Packaging Tool: PyInstaller (compiles source code into a standalone .exe)
+#### Packaging Tool: 
+PyInstaller (compiles source code into a standalone .exe)
 
-🧑‍💻 Author
+### 🧑‍💻 Author
 Name: Gulshan Kumar (Gulshan Bauddh)
 
-Role: Full-Stack Developer & Tech Trainee
+#### Role: 
+Full-Stack Developer & Tech Trainee
 
-Areas of Interest: Software Automation, Web Development, & Computer Networking
+#### Areas of Interest: 
+Software Automation, Web Development, & Computer Networking
 
-📄 License
+### 📄 License
 This project is open-source and available under the MIT License.
