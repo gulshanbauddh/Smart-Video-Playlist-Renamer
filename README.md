@@ -35,3 +35,37 @@ If you prefer to inspect the code, modify it, or build the executable yourself, 
 Ensure you have Python installed on your system. Open your Command Prompt (CMD) and install the necessary dependencies:
 ```bash
 pip install yt-dlp pyinstaller
+```
+### 1. Execute the Script Directly
+Navigate to the project directory and run:
+```bash
+python Playlist_Renamer_App.py
+```
+
+### 2. Compiling the Script into an Executable (.exe)
+To compile the script into a single, independent Windows executable yourself, run:
+```bash
+pyinstaller --noconsole --onefile Playlist_Renamer_App.py
+```
+Once the build completes successfully, your standalone application will be available inside the newly generated dist/ folder.
+
+🛠️ Tech Stack & Libraries
+Core Language: Python 3.14
+
+GUI Framework: Tkinter (Tcl/Tk)
+
+Metadata Scraper: yt-dlp (efficient flat-playlist metadata extraction)
+
+Text Processing: difflib (advanced string similarity matching)
+
+Packaging Tool: PyInstaller (compiles source code into a standalone .exe)
+
+🧑‍💻 Author
+Name: Gulshan Kumar (Gulshan Bauddh)
+
+Role: Full-Stack Developer & Tech Trainee
+
+Areas of Interest: Software Automation, Web Development, & Computer Networking
+
+📄 License
+This project is open-source and available under the MIT License.
